@@ -56,3 +56,12 @@ let g:ctrlp_cmd = 'CtrlP'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
+" Pathogen load
+filetype off
+
+call pathogen#infect()
+call pathogen#helptags()
+
+filetype plugin indent on
+syntax onnput.close()
+
