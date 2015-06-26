@@ -65,4 +65,9 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 git clone git@github.com:Andrew-liu/MyVimConfig.git ~/.vim
 
 sudo cp ~/.vim/vimrc /usr/share/vim/vimrc
+
+
+在ubuntu下:
+
+cp ~/.vim/vimrc ~/.vimrc
 ```
